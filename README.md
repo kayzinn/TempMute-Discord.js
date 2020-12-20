@@ -1,7 +1,7 @@
 
-Avatar-command-discord.js
+##TempMute-Discord.js
 
-Command avatar for discord bot
+TempMute-Discord.js for your discord bot
 
 github: https://github.com/T4big
 
