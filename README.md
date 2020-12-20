@@ -1,5 +1,4 @@
-
-##TempMute-Discord.js
+***TempMute-Discord.js***
 
 TempMute-Discord.js for your discord bot
 
