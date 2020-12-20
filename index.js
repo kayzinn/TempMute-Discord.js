@@ -14,7 +14,6 @@ client.on('ready', () => {
     const command = args.shift().toLowerCase();
 
 
-
     if(command == "mute"){
         let permissions = message.member.hasPermission("KICK_MEMBERS") || message.member.roles.has("ID-ROLE"); //We declare the necessary permissions to be able to execute the command || We declare the role that is necessary to be able to execute the command
         let user = message.mentions.members.first();
@@ -36,15 +35,11 @@ client.on('ready', () => {
 
             user.roles.remove(mutedrole);
 
-
-
         }, ms(time));
 
         mutedchannel.send(`--------------------------------------------------\n:no_entry: **Member:** ${user}\n:timer: ** Time:**  ${time} \n:pencil: ** Reason:**  ${reason} \n:medal: ** STAFF:**  ${message.author}`);
 
-
     }
-
 
  });
 
